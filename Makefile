@@ -17,4 +17,5 @@ clean:
 	rm -rf ./bin/boot.bin
 	rm -rf ./bin/kernel.bin
 	rm -rf ./bin/os.bin
-	rm -rf ${FILES}
+	rm -rf ${FILES} 
+	rm -rf ./build/kernelfull.o
